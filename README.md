@@ -1,6 +1,6 @@
 # MariaDB utility stored procedures
 
-This is a repository containing stored procedures for MariaDb version 10.3+.
+This is a repository containing stored procedures for MariaDB version 10.3+.
 
 ### copy.sql
 
@@ -12,7 +12,7 @@ The **copy** procedure in copy.sql transforms the result set of a query (SELECT 
 
 *Expected output:*
 
-INSERT INTO users (`username`, `email`, `registered_at`, `company_id`) VALUES 
+INSERT INTO users (\`username\`, \`email\`, \`registered_at\`, \`company_id\`) VALUES 
 ('sando', 'sando@sando.com', '2018-05-10 21:46:03', 1),
 ('Peter', 'peter@gmail.com', '2020-01-11 03:16:51', 2),
 ('John', 'john@example.com', '2022-08-18 23:47:13', 2);
