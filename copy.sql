@@ -197,4 +197,4 @@ make_insert_into_making_query(
 DELIMITER ;
 
 -- EXAMPLE
--- CALL copy('SELECT * FROM partners WHERE id > 3 ORDER BY id DESC LIMIT 10', 0);
+-- CALL copy('SELECT * FROM users WHERE id < 3 ORDER BY id DESC LIMIT 10', 0);
